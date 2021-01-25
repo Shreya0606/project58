@@ -1,21 +1,43 @@
-
 body{
-    text-align: center;
+  background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+  text-align:center;
+  background-repeat : no-repeat;
+  
+}
+#img1{
+    margin: 100px;
+  border-radius:100px;
+}
+h1{
+  text-shadow :2px 2px  #FFEBEE;
+  font-size:20px;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    
+}
+
+
+
+.link {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.link:hover {
     background-color: aqua;
 }
-div{
-    margin-top: 15px;
-}
-.image-section{
-    display: flex;
-    justify-content: center;
-}
-.section-style{
-    margin-right: 25px;
-        margin-left: 25px;
-    background-color: white;
-}
-img{
-    height: 500px;
-    width: 500px;
+.sec2{
+    font-family: 'Yusei Magic', sans-serif;
 }
