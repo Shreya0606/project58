@@ -5,12 +5,12 @@ body{
   
 }
 #img1{
-    margin: 100px;
+    margin: 50px;
   border-radius:100px;
 }
 h1{
   text-shadow :2px 2px  #FFEBEE;
-  font-size:20px;
+ 
 }
 .menu {
     list-style: none;
@@ -22,7 +22,10 @@ h1{
     
 }
 
-
+.im{
+    height: 200px;
+    width: 300px;
+}
 
 .link {
     float: left;
@@ -38,6 +41,16 @@ h1{
 .link:hover {
     background-color: aqua;
 }
-.sec2{
+#sec1{
     font-family: 'Yusei Magic', sans-serif;
+}
+
+.inspi img
+{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+.inspi img:hover{
+    transform: scale(1,2);
 }
